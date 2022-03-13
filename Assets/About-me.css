@@ -1,0 +1,18 @@
+div > h1{
+    font-size: 50px;
+    margin-bottom: 40px;
+    text-decoration: underline;
+}
+div >h2{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.aboutme{
+    margin-left: 20px;
+}
+
+main{
+    height: 76vh;
+    margin: 24px;
+}
