@@ -1,0 +1,20 @@
+.navigation{
+    color: black;
+}
+main{
+    margin: 20px;
+}
+div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center ;
+    width: 100%;
+
+
+}
+section{
+    flex: 1;
+    margin: 20px;
+    text-align: center;
+}
+
