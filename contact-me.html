@@ -20,25 +20,34 @@
           <a href="./contact-me.html">Contact Me<div></div></a>
       </nav>
     </header>
-    <main>
+    <main class="contactme">
+        <section>
+          <h1 class="styled-text"><span>C</span>ontact me</h1>
+        </section>
         <form>
-            <h2>Contact Me:</h2>
-            <p>
-              <label for="username">Name:</label>
-              <input class="text-input" id="username" type="text" placeholder="First Last" />
-            </p>
-            <p>
-              <label for="email">E-mail:</label>
-              <input class="text-input" id="email" type="text" placeholder="me@example.com" />
-            </p>
-            <p>
-              <label for="comment">Comment:</label>
-              <textarea class="text-input" id="comment" placeholder="Great article!"></textarea>
-            </p>
-            <p>
-              <button>Submit</button>
-            </p>
-          </form>
+          <div class="input-group">
+            <input type="text" id="firstname" required>
+            <label for="firstname">First Name</label>
+          </div>
+          <div class="input-group">
+            <input type="text" id="lastname" required>
+            <label for="lastname">Last Name</label>
+          </div>
+          <div class="input-group">
+            <input type="email" id="email" required>
+            <label for="email">Email</label>
+          </div>
+          <div class="input-group">
+            <input type="text" id="number" required>
+            <label for="number">Phone Number</label>
+          </div>
+          <div class="input-group">
+            <textarea id="comment"></textarea>
+            <label for="comment">Comment</label>
+          </div>
+          <button type="submit">Submit</button>
+        </form>
+            
     </main>
 
     <footer class="footer">

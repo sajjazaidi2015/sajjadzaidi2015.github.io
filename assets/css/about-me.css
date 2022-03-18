@@ -20,4 +20,10 @@ main{
 }
 .about-me section p, .about-me section ul {
     line-height: 1.5;
+    color: var(--font-secondary);
+}
+.about-me section ul{
+    display: flex;
+    justify-content: space-between;
+
 }
