@@ -17,11 +17,14 @@ main{
 .portfolio section {
     display: flex;
     margin-top: 20px;
-    column-gap: 100px;
+    column-gap: 50px;
+    flex-wrap: wrap;
 }
 
 .portfolio section .code-repositories {
-    width: 50%;
+    width: 280px;
+    border-bottom: 1px solid #9ec45b;
+    margin-bottom: 20px;
 }
 
 .portfolio section .code-repositories h2 {
@@ -45,6 +48,7 @@ main{
 .portfolio section .code-repositories .links a {
     padding: 10px 0;
     align-self: center;
+    line-height: 2;
 }
 
 .portfolio section .code-repositories .icon {
