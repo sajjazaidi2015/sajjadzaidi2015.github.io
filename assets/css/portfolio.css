@@ -17,12 +17,12 @@ main{
 .portfolio section {
     display: flex;
     margin-top: 20px;
-    column-gap: 50px;
+    column-gap: 10px;
     flex-wrap: wrap;
 }
 
 .portfolio section .code-repositories {
-    width: 280px;
+    width: 240px;
     border-bottom: 1px solid var(--secondary-200);
     margin-bottom: 20px;
 }
