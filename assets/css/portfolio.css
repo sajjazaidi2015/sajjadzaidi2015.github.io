@@ -23,7 +23,7 @@ main{
 
 .portfolio section .code-repositories {
     width: 280px;
-    border-bottom: 1px solid #9ec45b;
+    border-bottom: 1px solid var(--secondary-200);
     margin-bottom: 20px;
 }
 
