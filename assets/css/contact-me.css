@@ -25,6 +25,7 @@ input, textarea{
     color: var(--font-secondary);
     font-size: 15px;
     margin-top: 10px;
+    transition: all 100ms linear;
     
 }
 input:focus, textarea:focus {
