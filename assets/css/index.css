@@ -30,3 +30,20 @@ figcaption{
     justify-content: center;
     font-size: 30px;
 }
+figure section{
+    display: flex;
+    margin : 10px
+}
+figure section a div{
+    height: 5px;
+    width: 0%;
+    background: var(--font-primary);
+    margin-top: 8px;
+    opacity: 0;
+    transition: all 200ms linear;
+}
+figure section a:hover div{
+    opacity: 1;
+    width: 100%;
+}
+
