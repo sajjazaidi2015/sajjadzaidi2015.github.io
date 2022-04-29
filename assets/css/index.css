@@ -34,16 +34,24 @@ figure section{
     display: flex;
     margin : 10px
 }
-figure section a div{
-    height: 5px;
-    width: 0%;
-    background: var(--font-primary);
-    margin-top: 8px;
-    opacity: 0;
-    transition: all 200ms linear;
+
+figure a {
+    display: flex;
+    align-items: center;
 }
-figure section a:hover div{
+
+.icon{
+    width: 30px;
+    opacity: 0.5;
+    transition: all 200ms linear;
+    
+}
+.icon:hover{
     opacity: 1;
-    width: 100%;
+}
+.contact-info{
+    font-size: 12px;
+    margin-left: 5px;
+    margin-bottom: 5px;
 }
 
